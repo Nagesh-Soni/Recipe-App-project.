@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <h1>🍽️ Recipe App</h1>
+
+        <form>
+            <input
+                type="text"
+                class="food"
+                placeholder="Enter food name..."
+            >
+
+            <button class="search">
+                Search Recipe
+            </button>
+        </form>
+    </div>
+
+    <main>
+        <section>
+
+            <div class="recipe-container">
+                <h2>Search for Recipe 🍕</h2>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Recipe Popup -->
+    <div class="recipe_details">
+
+        <button
+            type="button"
+            class="cancel_btn"
+        >
+            ✕
+        </button>
+
+        <div class="recipe_details_containt">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
